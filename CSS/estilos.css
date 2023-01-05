@@ -1,0 +1,52 @@
+
+*{
+    color: blue;
+}/** con el * todos los objetos compartiran esa caracteristica a no ser que los elementos tengan otras especificaciones. cascada*/
+
+p, span{
+    color:red;
+    width: 300px;
+}
+
+/**
+    Esto es un comentario dentro de un documento CSS
+*/
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    /** Box model en CSS ejemplo*/
+    border: 1px solid black;
+    padding: 5px;
+    margin: 30px;
+    /** Se puede especificar los lados ejemplo:display:
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left...
+    margin-right...
+    */
+    /**
+    No es necesario escribir los 4 lados, por defecto lee arriba,derecha,abajo,izquierda. Ejemplo
+    padding: 30px 15px 12px 25px;
+    */
+
+    font-weight: bold;
+    color: greenyellow;
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  #mi_parrafo{
+    color: grey;
+    font-size: 23px;
+    border: 1px solid  olive;
+  }
+
+.estaesmiclase{
+    font-weight: bold;
+    color: blueviolet;
+}
