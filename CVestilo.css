@@ -1,0 +1,48 @@
+
+body {
+    background-color: silver;
+    border: 2px solid rgb(130, 238, 197)
+  }
+
+  h1 {
+    font-family: 'Sofia Sans', sans-serif;
+    color: blueviolet;
+    border: 2px solid green
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    color: brown;
+  }
+
+  h2 {
+    background-color:rgba(71, 255, 240, 0.5)
+  }
+
+  footer {
+    background-color: rgb(17, 170, 38);
+  }
+
+  #piepagina {
+    background: rgba(0, 128, 0, 0.3) 
+  }
+
+  #filmografia {
+    background-color: greenyellow;
+  }
+
+  #academica {
+    background-color: greenyellow;
+  }
+
+  #extracto {
+    background-color: greenyellow;
+  }
+
+  #piepagina {
+    text-align: center;
+  }
+
+
+
+
