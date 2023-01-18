@@ -1,5 +1,31 @@
-console.log("Hola Mundo");
 
-let numer1 = 3
-let numero2 = 3
-console.log(numer1+numero2)
+
+
+/** 
+document.getElementById('boton').onclick = function () {
+    console.log("capturamos el evento click");
+    document.getElementById("demo").innerHTML = "Estamos probando nuestro primer evento JS"
+}*/
+
+/** 
+document.addEventListener("click", function(){
+    console.log("Hola mundo desde evenlistener");
+    document.getElementById("demo").innerHTML = "Estamos probando nuestro primer evento JS"
+}
+)*/
+
+    document.getElementById('boton').addEventListener("click", function(){
+    console.log("Hola mundo desde evenlistener");
+    document.getElementById("demo").innerHTML = "Estamos probando nuestro primer evento JS"})
+
+    document.getElementById("boton_color").addEventListener("click", function(){
+        document.body.style.backgroundColor = "#FF0000";
+    }); 
+
+    document.getElementById("boton_default").addEventListener("click", function(){
+        document.body.style.backgroundColor = "blue";
+    }); 
+
+    document.getElementById("boton_ocultar").addEventListener("click", function(){
+        document.getElementById("demo").style.display = "none";
+    }); 
