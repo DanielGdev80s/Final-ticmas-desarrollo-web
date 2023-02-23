@@ -18,3 +18,33 @@ document.getElementById('twiter').addEventListener('click', () => {
    document.getElementById('web').addEventListener('click', () => {
     window.open("https://theofficialjohncarpenter.com/")
    });
+
+   function mostrar(){
+    document.getElementById('extracto').style.display = 'block';
+    
+   }
+
+   function ocultar(){
+    document.getElementById('extracto').style.display = 'none';
+    
+   }
+
+   function mostraracademica(){
+    document.getElementById('academicadiv').style.display = 'block';
+    
+   }
+
+   function ocultaracademica(){
+    document.getElementById('academicadiv').style.display = 'none';
+    
+   }
+
+   function mostrarfilmografia(){
+    document.getElementById('filmografiadiv').style.display = 'block';
+    
+   }
+
+   function ocultarfilmografia(){
+    document.getElementById('filmografiadiv').style.display = 'none';
+    
+   }

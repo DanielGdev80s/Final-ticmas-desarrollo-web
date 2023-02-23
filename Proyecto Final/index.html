@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="D:\Curso Desarrollo web\HTML/favicon.ico" />
     <title>CV</title>
 </head>
 <body>
@@ -25,21 +26,30 @@
     <p><b>Telefono de contacto:</b> 123456789</p>
     <p><b>Correo electronico: </b>JhonCarpenter@hotmail.com</p>
     <hr>
-
-    <h2>Extracto</h2>
-    <p id="extracto">John Howard Carpenter conocido artísticamente como John Carpenter, es un director de cine, guionista y compositor de bandas sonoras estadounidense.
+    
+    
+    <button onclick="mostrar();">Extracto</button>
+    <div id="extracto">
+    <p>John Howard Carpenter conocido artísticamente como John Carpenter, es un director de cine, guionista y compositor de bandas sonoras estadounidense.
         Es calificado, junto con David Cronenberg y Wes Craven,como uno de los realizadores del género de terror más importantes, especialmente en las décadas de 1970 y 1980.</p>
+    </div>
+    <button onclick="ocultar();">Ocultar Extracto</button>
     <hr>
+    
 
-    <h2>Formacion Academica</h2>
+    <button onclick="mostraracademica();">Formacion Academica</button>
+    <div id="academicadiv">
     <ul id="academica">
         <li>Universidad del Sur de California</li>
         <li>Escuela de Artes Cinematográficas de la Universidad del Sur de California</li>
         <li>Western Kentucky University</li>
     </ul>
+    </div>
+    <button onclick="ocultaracademica();">Ocultar Formacion Academica</button>
     <hr>
 
-    <h2>Filmografia</h2>
+    <button onclick="mostrarfilmografia();">Filmografia</button>
+    <div id="filmografiadiv">
     <ul id="filmografia">
         <li><b>Cortos</b></li>
             <ul>
@@ -80,6 +90,8 @@
                 <li><a href="https://www.filmaffinity.com/ar/film581561.html" target="_blank">Pro-vida (2006, para la serie Masters of Horror)</a></li>
             </ul>
     </ul>
+    </div>
+    <button onclick="ocultarfilmografia();">Ocultar Filmografia</button>
     <hr>
 
     <div id="piepagina">
