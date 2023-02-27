@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CVestilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="D:\Curso Desarrollo web\HTML/favicon.ico" />
+    <link rel="stylesheet" href="css/font-awesome.min.css"> 
+    <title>CV</title>
+</head>
+<body class="dark">
+    <nav class="menu">
+    <button class="darkModeSwitch" id="switch">Color mode switch
+    <span><i class="fa-solid fa-sun"></i></span>
+    <span><i class="fa-solid fa-moon"></i></span>
+    </button>
+    </nav>
+    <h1>John Howard Carpenter</h1>
+    <div><img class="foto2" src=https://upload.wikimedia.org/wikipedia/commons/b/b8/JohnCarpenter2010_%28Cropped%29.jpg alt="imagen 2"></div>
+    
+
+    <hr>
+    <p><b>Fecha de nacimiento: </b>16 de enero de 1948</p>
+    <p><b>Edad: </b> 74 años</p>
+    <p><b>Nacionalidad: </b> Estados Unidos</p>
+    <p><b>Direccion: </b>Los Angeles, California, USA</p>
+    <p><b>Telefono de contacto:</b> 123456789</p>
+    <p><b>Correo electronico: </b>JhonCarpenter@hotmail.com</p>
+    <hr>
+    
+    
+    <button onclick="mostrar();">Extracto</button>
+    <div id="extracto">
+    <p>John Howard Carpenter conocido artísticamente como John Carpenter, es un director de cine, guionista y compositor de bandas sonoras estadounidense.
+        Es calificado, junto con David Cronenberg y Wes Craven,como uno de los realizadores del género de terror más importantes, especialmente en las décadas de 1970 y 1980.</p>
+    </div>
+    <button onclick="ocultar();">Ocultar Extracto</button>
+    <hr>
+    
+
+    <button onclick="mostraracademica();">Formacion Academica</button>
+    <div id="academicadiv">
+    <ul id="academica">
+        <li>Universidad del Sur de California</li>
+        <li>Escuela de Artes Cinematográficas de la Universidad del Sur de California</li>
+        <li>Western Kentucky University</li>
+    </ul>
+    </div>
+    <button onclick="ocultaracademica();">Ocultar Formacion Academica</button>
+    <hr>
+
+    <button onclick="mostrarfilmografia();">Filmografia</button>
+    <div id="filmografiadiv">
+        <div id="fotofilmo"><img src="https://www.mubis.es/media/users/12828/210549/que-pelicula-de-john-carpenters-es-tu-preferida-l_cover.jpg"></div>
+    <ul id="filmografia">
+        <li><b>Cortos</b></li>
+            <ul>
+                <li><a href="https://www.lashorasperdidas.com/index.php/2011/10/27/la-usc-restaura-el-primer-corto-de-john-carpenter/?doing_wp_cron=1673744039.7756989002227783203125" target="_blank">Revenge of the Colossal Beasts (1962)</a></li>
+                <li><a href="https://www.imdb.com/title/tt0121801/" target="_blank">Terror from space (1963)</a></li>
+                <li><a href="https://www.imdb.com/title/tt0121857/" target="_blank">Warrior and the Demon (1969)</a></li>
+                <li><a href="https://www.imdb.com/title/tt0121760/" target="_blank">Sorceror from Outer Space (1969)</a></li>
+                <li><a href="https://www.imdb.com/title/tt0064383/" target="_blank">Gorgo versus Godzilla (1969)</a></li>
+                <li><a href="https://www.imdb.com/title/tt0064384/" target="_blank">Gorgon, the Space Monster (1969)</a></li>
+            </ul>
+        <li><b>Cine</b></li>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Dark_Star_(pel%C3%ADcula)" target="_blank">Dark Star (1974)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Asalto_a_la_comisar%C3%ADa_del_distrito_13" target="_blank">Assault on Precinct 13 (Asalto a la comisaría del distrito 13) (1976)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Halloween_(pel%C3%ADcula_de_1978)" target="_blank">Halloween (1978)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/La_niebla_(pel%C3%ADcula_de_1980)" target="_blank">The Fog (La niebla) (1980)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Escape_from_New_York" target="_blank">Escape from New York (1997: Rescate en Nueva York) (1981)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/The_Thing_(pel%C3%ADcula_de_1982)" target="_blank">The Thing (La cosa) (1982)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Christine_(pel%C3%ADcula_de_1983)" target="_blank">Christine (1983)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Starman,_el_hombre_de_las_estrellas" target="_blank">Starman (Starman, el hombre de las estrellas)(1984)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Big_Trouble_in_Little_China" target="_blank">Big trouble in Little China (Golpe en la pequeña China) (1986)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Prince_of_Darkness" target="_blank">Prince of Darkness (El príncipe de las tinieblas) (1987)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/They_Live" target="_blank">They Live (Están vivos) (1988)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Memorias_de_un_hombre_invisible" target="_blank">Memoirs of an Invisible Man (Memorias de un hombre invisible) (1992)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/In_the_Mouth_of_Madness" target="_blank">In the Mouth of Madness (En la boca del miedo) (1994)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/El_pueblo_de_los_malditos_(pel%C3%ADcula_de_1995)" target="_blank">John Carpenter's Village of the Damned (El pueblo de los malditos) (1995)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Escape_from_L.A." target="_blank">Escape from L.A. (2013: rescate en L.A.) (1996)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/John_Carpenter%27s_Vampires" target="_blank">John Carpenter's Vampires (Vampiros) (1998)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Ghosts_of_Mars" target="_blank">Ghosts of Mars (Fantasmas de Marte de John Carpenter) (2001)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/The_Ward" target="_blank">The ward (Encerrada) (2010)</a></li>
+            </ul>
+        <li><b>Television</b></li>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Someone%27s_Watching_Me!" target="_blank">Someone's Watching Me! (1978)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Elvis_(telefilme)" target="_blank">Elvis (1979)</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Bolsa_de_cad%C3%A1veres" target="_blank">Bolsa de cadáveres (1993)</a></li>
+                <li><a href="https://www.filmaffinity.com/ar/film693427.html" target="_blank">El fin del mundo en 35 mm (2005, para la serie Masters of Horror)</a> </li>
+                <li><a href="https://www.filmaffinity.com/ar/film581561.html" target="_blank">Pro-vida (2006, para la serie Masters of Horror)</a></li>
+            </ul>
+    </ul>
+    </div>
+    <button onclick="ocultarfilmografia();">Ocultar Filmografia</button>
+    <hr>
+
+    <div id="piepagina">
+    <footer>
+        <button id="twiter"><span style="cursor:pointer"><i class="fa-brands fa-twitter"></i></span></button>
+        <button id="facebook"><span style="cursor:pointer"><i class="fa-brands fa-facebook"></i></span></button>
+        <button id="instagram"><span style="cursor:pointer"><i class="fa-brands fa-instagram"></i></span></button>
+        <button id="youtube"><span style="cursor:pointer"><i class="fa-brands fa-youtube"></i></span></button>
+        <button id="web"><span style="cursor:pointer"><i class="fa-solid fa-house"></i></span></button>
+        <a href="index.pdf" download="cv.pdf"><button id="pdf"><span style="cursor:pointer"><i class="fa-solid fa-download"></i></span></button></a>  
+    </footer>
+    <div>
+    
+    <script src="CVjs.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</body>
+</html>

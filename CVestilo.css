@@ -1,0 +1,105 @@
+
+body {
+    background:  rgba(5, 107, 35, 0.4);
+  }
+
+  h1 {
+    font-family: 'Sofia Sans', sans-serif;
+    color: blueviolet;
+
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    color: brown;
+  }
+
+
+  footer {
+    background-color: rgb(17, 170, 38);
+  }
+
+
+  #piepagina {
+    text-align: center;
+    background: rgba(0, 128, 0, 0.3) 
+  }
+
+  #piepagina {
+    text-align: center;
+  }
+
+  .foto2 { padding: 10px; margin: 10px; border: 2px solid black; float: right; width: 250px; }
+
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+}
+
+#fotofilmo{
+  padding: 10px; margin: 10px; float: right; width: 800px;
+}
+
+
+.darkModeSwitch{
+  background: #3e66d4;
+  display:flex;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.darkModeSwitch span{
+  width:30px;
+  height:30px;
+  line-height:30px;
+  display:block;
+  color:#fff;
+  background: none;
+}
+
+.darkModeSwitch::after{
+  display:block;
+  background: #fffbf5;
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  top:0;
+  left:0;
+  right:unset;
+  border-radius: 3rem;
+  transition: all .5s ease;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, .5);
+  content: "";
+}
+
+.darkModeSwitch.active{
+  background: #fdd384;
+}
+.darkModeSwitch.active::after{
+  left:unset;
+  right:0;
+}
+
+body.dark{
+  background:  rgba(14, 13, 13, 0.4);
+  background-color:rgba(0, 0, 0, 0.4);
+  border: 2px solid rgb(12, 12, 12)
+}
+
+
+
+
