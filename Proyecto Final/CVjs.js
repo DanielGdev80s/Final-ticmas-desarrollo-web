@@ -48,3 +48,12 @@ document.getElementById('twiter').addEventListener('click', () => {
     document.getElementById('filmografiadiv').style.display = 'none';
     
    }
+
+
+   const switchButton = document.getElementById('switch');
+ 
+   switchButton.addEventListener('click', () => {
+       document.body.classList.toggle('dark'); 
+       switchButton.classList.toggle('active');
+   });
+

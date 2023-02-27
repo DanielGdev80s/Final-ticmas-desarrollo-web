@@ -12,11 +12,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="D:\Curso Desarrollo web\HTML/favicon.ico" />
+    <link rel="stylesheet" href="css/font-awesome.min.css"> 
     <title>CV</title>
 </head>
-<body>
-    <h1>John Howard Carpenter<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/JohnCarpenter2010_%28Cropped%29.jpg/330px-JohnCarpenter2010_%28Cropped%29.jpg" alt="John Carpenter" style="float:right;width:200px;height:200px;">
-        </h1>
+<body class="dark">
+    <nav class="menu">
+    <button class="darkModeSwitch" id="switch">Color mode switch
+    <span><i class="fa-solid fa-sun"></i></span>
+    <span><i class="fa-solid fa-moon"></i></span>
+    </button>
+    </nav>
+    <h1>John Howard Carpenter</h1>
+    <div><img class="foto2" src=https://upload.wikimedia.org/wikipedia/commons/b/b8/JohnCarpenter2010_%28Cropped%29.jpg alt="imagen 2"></div>
+    
 
     <hr>
     <p><b>Fecha de nacimiento: </b>16 de enero de 1948</p>
@@ -50,6 +58,7 @@
 
     <button onclick="mostrarfilmografia();">Filmografia</button>
     <div id="filmografiadiv">
+        <div id="fotofilmo"><img src="https://www.mubis.es/media/users/12828/210549/que-pelicula-de-john-carpenters-es-tu-preferida-l_cover.jpg"></div>
     <ul id="filmografia">
         <li><b>Cortos</b></li>
             <ul>
@@ -101,10 +110,12 @@
         <button id="instagram"><span style="cursor:pointer"><i class="fa-brands fa-instagram"></i></span></button>
         <button id="youtube"><span style="cursor:pointer"><i class="fa-brands fa-youtube"></i></span></button>
         <button id="web"><span style="cursor:pointer"><i class="fa-solid fa-house"></i></span></button>
+        <a href="index.pdf" download="cv.pdf"><button id="pdf"><span style="cursor:pointer"><i class="fa-solid fa-download"></i></span></button></a>  
     </footer>
     <div>
     
     <script src="CVjs.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </body>
 </html>
